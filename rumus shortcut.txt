@@ -1,0 +1,12 @@
+rumus shortcut 
+
+!= EMMET/template html
+ctrl+enter : membawahkan tanpa merubah baris 
+
+alt + shift+ f: merapikan pod
+br: break 
+hr= garis 
+v
+ctrl+ / = coment
+../ = naik folder
+../.. = naik 2 kali 
