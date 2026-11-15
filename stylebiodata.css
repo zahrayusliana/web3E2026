@@ -1,0 +1,90 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8b6e2;
+    color: #0b0406;
+    padding: 35px 20px;
+}
+
+/* JUDUL UTAMA */
+h1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* KOTAK PUTIH */
+.card {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 22px 28px;
+    border: 1px solid #f0dce2;
+    border-radius: 12px;
+    margin: 0 auto 25px;
+    box-shadow: 0 4px 12px rgba(167, 111, 128, 0.10);
+}
+
+/* JUDUL DALAM KOTAK */
+.card h2 {
+    font-family: Georgia, serif;
+    color: #ad7888;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0dce2;
+}
+
+/* ISI BIODATA */
+.card p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* DAFTAR */
+.card ol,
+.card ul {
+    padding-left: 22px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* TEKS TEBAL */
+strong {
+    color: #a66f80;
+}
+
+/* TEKS MIRING */
+em {
+    color: #da6aa0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        padding: 18px 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p,
+    .card ol,
+    .card ul {
+        font-size: 14px;
+    }
+}
